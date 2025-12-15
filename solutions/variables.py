@@ -1,0 +1,14 @@
+l=["app",1,[1,3,4,],"name"]
+print(l)
+l.append("spandana")
+print(l)
+l.insert(1,"john")
+print(l)
+l.pop(0)
+print(l)
+l.remove("name")
+print(l)
+l[0]="hello"#replace
+print(l)
+l.clear()
+print(l)
