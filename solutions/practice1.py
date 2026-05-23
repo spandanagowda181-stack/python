@@ -1,0 +1,16 @@
+mess="hello everyone"
+print((mess.strip())*10)
+print(mess.replace("hello","good"))
+print(mess.capitalize())
+print(mess.title())
+print(mess.swapcase())
+print( 'h' in mess)
+print('z' in mess)
+a=[1,2,"qwe","qw"]
+print(a.pop(0))
+print(a)
+print(a.pop())
+print(a.append(9))
+print(a.insert(0,"wee"))
+print(a.remove())
+print(a)

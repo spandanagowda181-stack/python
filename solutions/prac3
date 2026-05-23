@@ -1,0 +1,13 @@
+class car:
+   vehicle='car'
+   def __init__(self,model,name):
+      self.model=model
+      self.name=name
+   def display(self):
+      print(f"Car Name: {self.name}, Model: {self.model}")
+   def update(self,updatemodel):
+      self.model=updatemodel
+c1=car("2020","totota")
+c2=car("2023","honda")
+c1.display()
+print(c1.model)
